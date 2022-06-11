@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="javascript">
+var score = 0 ;
+function resultat() {   
+
+if (document.getElementById('qu11').checked) {
+  score+=3;}
+  else if (document.getElementById('qu12').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu13').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu21').checked) {
+  score+=3;}
+  else if (document.getElementById('qu22').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu23').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu31').checked) {
+  score+=3;}
+  else if (document.getElementById('qu32').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu33').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu41').checked) {
+  score+=3;}
+  else if (document.getElementById('qu42').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu43').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu51').checked) {
+  score+=3;}
+  else if (document.getElementById('qu52').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu53').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu61').checked) {
+  score+=3;}
+  else if (document.getElementById('qu62').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu63').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu71').checked) {
+  score+=3;}
+  else if (document.getElementById('qu72').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu73').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu81').checked) {
+  score+=3;}
+  else if (document.getElementById('qu82').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu83').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu91').checked) {
+  score+=3;}
+  else if (document.getElementById('qu92').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu93').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+  if (document.getElementById('qu101').checked) {
+  score+=3;}
+  else if (document.getElementById('qu102').checked){
+    score+=2 ;
+  }
+  else if (document.getElementById('qu103').checked){
+    score+=1 ;
+  }
+  else {
+    score ;
+  }
+ if (score<15){
+   alert ('Ton score est : '+score + '\nSi votre score est faible (au moins inférieur à 15), vous éprouvez beaucoup de plaisir à pratiquer des activités de courte durée, et avez des difficultés à rester concentré(e) sur vos objectifs. Impulsif(ve), vous êtes perçu(e) comme une personne amusante et boute-en-train en société. Vous ne savez pas toujours respecter les limites, ce qui peut vous rendre irréfléchi(e), dispersé(e), voire imprudent(e). Vous ne pensez parfois pas aux conséquences de vos paroles, de vos actes, ce qui peut entraver votre réussite, notamment au travail.');
+ }
+ else {
+  alert('Ton score est : ' +score+'\nSi votre score est élevé, vous êtes prudent(e), réfléchi(e), fiable et savez éviter les difficultés. Vous atteignez facilement vos objectifs grâce à vos capacités d’anticipation et d’organisation. Vous êtes perspicace et déterminé(e). Parfois, vous êtes très perfectionniste, soucieux(se) de l’ordre dans vos tâches et au travail.');
+ }
+}
+
+</script>
+	<meta charset="utf-8">
+	<title>Caractère consciencieux</title>
+	<link rel="stylesheet" type="text/css" href="estra.css">
+</head>
+<body>
+<header class="header">
+		
+	<nav class="navbar">
+		<ul>
+		<li><a href="page-d'accueil.html">ACCUEIL</a></li>
+		<li><a href="dimensions.html">DIMENSIONS AFFECTIVES</a></li>
+		<li><a href="qui.html">QUI ÊTES-VOUS ?</a></li>
+	
+		</ul>
+			</nav>
+		
+		</header>
+    <div class="per">
+      <h2>Pour chacune des affirmations suivantes,
+choisissez la réponse qui vous ressemble le plus :</h2>
+    </div>
+
+<section class="questions">
+		<div class ="q1">
+    <div class="q">1.Je suis quelqu’un de prudent(e) et j’ai les pieds sur terre.</div>
+    <div class="box">
+      <input type="radio" name="qu1" id="qu11">
+      <input type="radio" name="qu1" id="qu12">
+       <input type="radio" name="qu1" id="qu13">
+      <input type="radio" name="qu1" id="qu14">
+
+      <label for="qu11" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu12" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu13" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu14" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div>
+ <div class="q2">
+    <div class="q">2. Je suis fidèle aux engagements que je prends..</div>
+    <div class="box">
+      <input type="radio" name="qu2" id="qu21">
+      <input type="radio" name="qu2" id="qu22">
+       <input type="radio" name="qu2" id="qu23">
+      <input type="radio" name="qu2" id="qu24">
+
+      <label for="qu21" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu22" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu23" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu24" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div>
+  <div class="q3">
+    <div class="q">3.Je suis quelqu’un de méthodique et de très organisé.</div>
+    <div class="box">
+      <input type="radio" name="qu3" id="qu31">
+      <input type="radio" name="qu3" id="qu32">
+       <input type="radio" name="qu3" id="qu33">
+      <input type="radio" name="qu3" id="qu34">
+
+      <label for="qu31" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu32" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu33" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu34" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q4">
+    <div class="q">4.Je n’agis jamais sans réfléchir aux conséquences.</div>
+    <div class="box">
+      <input type="radio" name="qu4" id="qu41">
+      <input type="radio" name="qu4" id="qu42">
+       <input type="radio" name="qu4" id="qu43">
+      <input type="radio" name="qu4" id="qu44">
+
+      <label for="qu41" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu42" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu43" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu44" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q5">
+    <div class="q">5.Je m’investis beaucoup dans tout ce que j’entreprends.</div>
+    <div class="box">
+      <input type="radio" name="qu5" id="qu51">
+      <input type="radio" name="qu5" id="qu52">
+       <input type="radio" name="qu5" id="qu53">
+      <input type="radio" name="qu5" id="qu54">
+
+      <label for="qu51" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu52" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu53" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu54" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q6">
+    <div class="q">6.Je travaille dur jusqu’à ce que j’obtienne ce que je souhaite.</div>
+   <div class="box">
+      <input type="radio" name="qu6" id="qu61">
+      <input type="radio" name="qu6" id="qu62">
+       <input type="radio" name="qu6" id="qu63">
+      <input type="radio" name="qu6" id="qu64">
+
+      <label for="qu61" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu62" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu63" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu64" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q7">
+    <div class="q">7.Je suis soucieux(se) de respecter mes principes moraux.</div>
+    <div class="box">
+      <input type="radio" name="qu7" id="qu71">
+      <input type="radio" name="qu7" id="qu72">
+       <input type="radio" name="qu7" id="qu73">
+      <input type="radio" name="qu7" id="qu74">
+
+      <label for="qu71" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu72" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu73" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu74" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q8">
+    <div class="q">8.Je suis respectueux(se) des règles et des interdits.</div>
+    <div class="box">
+      <input type="radio" name="qu8" id="qu81">
+      <input type="radio" name="qu8" id="qu82">
+       <input type="radio" name="qu8" id="qu83">
+      <input type="radio" name="qu8" id="qu84">
+
+      <label for="qu81" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu82" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu83" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu84" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q9">
+    <div class="q">9.Je fais les choses avec soin et vérifie que mon travail est bien fait.</div>
+   <div class="box">
+      <input type="radio" name="qu9" id="qu91">
+      <input type="radio" name="qu9" id="qu92">
+       <input type="radio" name="qu9" id="qu93">
+      <input type="radio" name="qu9" id="qu94">
+
+      <label for="qu91" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu92" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu93" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu94" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q10">
+    <div class="q">10. Je recherche le meilleur et la perfection dans tout ce que je fais.</div>
+    <div class="box">
+      <input type="radio" name="qu10" id="qu101">
+      <input type="radio" name="qu10" id="qu102">
+       <input type="radio" name="qu10" id="qu103">
+      <input type="radio" name="qu10" id="qu104">
+
+      <label for="qu101" class="option1">
+        
+        <div class="text">Tout à fait vrai</div>
+      </label>
+      <label for="qu102" class="option2">
+        
+        <div class="text">Plutôt vrai</div>
+      </label>
+      <label for="qu103" class="option3">
+        
+        <div class="text">Plutôt faux</div>
+      </label>
+      <label for="qu104" class="option4">
+        
+        <div class="text">Tout à fait faux</div>
+      </label>
+      
+
+    </div>
+ </div>
+ <input type="submit" class="res" onclick="resultat()" id="resultat" value="Resultat">
+ <a href="carac.html"><input type="reset" value="Refaire" class="res1"></a>
+</section>
+</body>
+</html>

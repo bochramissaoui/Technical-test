@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="javascript">
+var score = 0 ;
+function resultat() {   
+
+if (document.getElementById('qu12').checked) {
+  score++;}
+  else {
+    score ;
+  }
+ if (document.getElementById('qu32').checked) {
+  score++;}
+  else {
+    score ;
+  }if (document.getElementById('qu51').checked) {
+  score++;}
+  else {
+    score ;
+  }if (document.getElementById('qu62').checked) {
+  score++;}
+  else {
+    score ;
+  }if (document.getElementById('qu81').checked) {
+  score++;}
+  else {
+    score ;
+  }if (document.getElementById('qu102').checked) {
+  score++;}
+  else {
+    score ;
+  }if (document.getElementById('qu22').checked) {
+  score++;}
+  else {
+    score ;
+  }if (document.getElementById('qu41').checked) {
+  score++;}
+  else {
+    score ;
+  } 
+  if (document.getElementById('qu72').checked) {
+  score++;}
+  else {
+    score ;
+  }if (document.getElementById('qu91').checked) {
+  score++;}
+  else {
+    score ;
+  }
+ if (score<3){
+   alert ('Ton score est : '+score + '\n vous avez tendance à être peu concentré(e).');
+ }
+ else if((score>3)&&(score<8)){
+  alert('Ton score est : ' +score+'\nPlus votre score est élevé, plus vous savez vous concentrer.');
+ }
+ else {
+   alert ('Ton score est : '+score + '\nvous avez un bon niveau global d’attention .');
+ }
+}
+
+</script>
+
+
+	<meta charset="utf-8">
+	<title>Attention</title>
+	<link rel="stylesheet" type="text/css" href="cssresil.css">
+</head>
+<body>
+<header class="header">
+		
+	<nav class="navbar">
+		<ul>
+		<li><a href="page-d'accueil.html">ACCUEIL</a></li>
+		<li><a href="dimensions.html">DIMENSIONS AFFECTIVES</a></li>
+		<li><a href="qui.html">QUI ÊTES-VOUS ?</a></li>
+	
+		</ul>
+			</nav>
+		
+		</header>
+    <div class="per">
+      <h2>Répondez le plus rapidement
+possible, sans chercher à trop réfléchir : c’est ainsi que vous obtiendrez les résultats les plus exacts.
+Vous pouvez aussi utiliser ces questionnaires pour évaluer le style émotionnel de ceux qui vous entourent :
+il vous suffit pour cela de vous demander si les affirmations indiquées s’appliquent à eux.</h2>
+    </div>
+
+<section class="questions">
+		<div class ="q1">
+    <div class="q">1. Je suis capable de me concentrer
+dans un environnement bruyant.</div>
+    <div class="box">
+      <input type="radio" name="qu1" id="qu11">
+      <input type="radio" name="qu1" id="qu12">
+
+      <label for="qu11" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu12" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div>
+ <div class="q2">
+    <div class="q">2. Quand je suis dans une situation où il se passe
+beaucoup de choses et où les stimulations
+sensorielles sont nombreuses, comme lors
+d’une fête ou dans la foule d’un aéroport,
+j’arrive à ne pas me laisser distraire
+par ce qui se passe devant moi.</div>
+    <div class="box">
+      <input type="radio" name="qu2" id="qu21">
+      <input type="radio" name="qu2" id="qu22">
+
+      <label for="qu21" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu22" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div>
+  <div class="q3">
+    <div class="q">3. Si je décide de concentrer mon attention sur
+une tâche particulière, j’en suis en général
+capable.</div>
+    <div class="box">
+      <input type="radio" name="qu3" id="qu31">
+      <input type="radio" name="qu3" id="qu32">
+
+      <label for="qu31" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu32" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q4">
+    <div class="q">4. Si je suis chez moi et que je tente de travailler,
+le bruit de la télévision ou des gens qui parlent me
+perturbe énormément.</div>
+    <div class="box">
+      <input type="radio" name="qu4" id="qu41">
+      <input type="radio" name="qu4" id="qu42">
+
+      <label for="qu41" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu42" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q5">
+    <div class="q">5. Si je reste immobile ne serait-ce que quelques
+instants, un flux de pensées me vient à l’esprit et je
+me mets à suivre plusieurs fils, souvent sans savoir
+comment chacun a commencé.</div>
+    <div class="box">
+      <input type="radio" name="qu5" id="qu51">
+      <input type="radio" name="qu5" id="qu52">
+
+      <label for="qu51" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu52" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q6">
+    <div class="q">6. Si je suis perturbé(e) par un événement imprévu,
+je suis capable de reconcentrer mon attention sur
+ce que je faisais avant d’être interrompu(e).</div>
+    <div class="box">
+      <input type="radio" name="qu6" id="qu61">
+      <input type="radio" name="qu6" id="qu62">
+
+      <label for="qu61" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu62" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q7">
+    <div class="q">7. À des moments de calme relatif, quand je suis
+assis(e) dans un train, dans un autobus, ou quand
+je fais la queue dans un magasin, je remarque
+beaucoup de choses autour de moi.</div>
+    <div class="box">
+      <input type="radio" name="qu7" id="qu71">
+      <input type="radio" name="qu7" id="qu72">
+
+      <label for="qu71" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu72" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q8">
+    <div class="q">8. Quand un projet important exige toute mon
+attention, j’essaye de m’installer dans un endroit
+le plus tranquille possible.</div>
+    <div class="box">
+      <input type="radio" name="qu8" id="qu81">
+      <input type="radio" name="qu8" id="qu82">
+
+      <label for="qu81" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu82" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q9">
+    <div class="q">9. Mon attention a tendance à se laisser capter par
+les stimuli et événements de mon environnement, et
+j’ai du mal à me reconcentrer quand cela se produit.</div>
+    <div class="box">
+      <input type="radio" name="qu9" id="qu91">
+      <input type="radio" name="qu9" id="qu92">
+
+      <label for="qu91" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu92" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div> <div class="q10">
+    <div class="q">10. Je n’ai aucun mal à mener une discussion
+personnelle au milieu d’une foule, lors d’un
+cocktail ou dans une grande pièce ; dans un tel
+environnement, je peux faire abstraction de tous
+les autres, même si, en me concentrant, j’arrive
+à distinguer ce qu’ils disent.</div>
+    <div class="box">
+      <input type="radio" name="qu10" id="qu101">
+      <input type="radio" name="qu10" id="qu102">
+
+      <label for="qu101" class="option1">
+        
+        <div class="text">Faux</div>
+      </label>
+      <label for="qu102" class="option2">
+        
+        <div class="text">Vrai</div>
+      </label>
+      
+
+    </div>
+ </div>
+ <input type="submit" class="res" onclick="resultat()" id="resultat" value="Resultat">
+ <a href="attention.html"><input type="reset" value="Refaire" class="res1"></a>
+</section>
+</body>
+</html>
